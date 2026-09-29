@@ -1,0 +1,189 @@
+/* ==========================================
+   1. ზოგადი სტილები და შრიფტი
+   ========================================== */
+body {
+  font-family: 'Noto Sans Georgian', sans-serif;
+  line-height: 1.7;
+  background-color: #f4f7f6;
+  color: #2c3e50;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+/* მთლიანი კონტენტის ცენტრში მოყვანა */
+header, nav, main, footer {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* ==========================================
+   2. ჰედერი (HEADER)
+   ========================================== */
+header {
+  text-align: center;
+  background-color: #2c3e50;
+  color: #ffffff;
+  border-radius: 0 0 12px 12px;
+  margin-top: 0;
+  margin-bottom: 25px;
+  padding: 35px 20px;
+}
+
+header h1 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+header p {
+  font-size: 1.15rem;
+  opacity: 0.9;
+  margin: 0;
+  font-weight: 300;
+}
+
+/* ==========================================
+   3. ნავიგაციის მენიუ (NAV)
+   ========================================== */
+nav {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  margin-bottom: 35px;
+  padding: 12px 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #34495e;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 10px 16px;
+  border-radius: 6px;
+  transition: all 0.25s ease;
+}
+
+nav a:hover {
+  background-color: #3498db;
+  color: #ffffff;
+}
+
+/* ==========================================
+   4. სექციები და ტექსტის ზომები
+   ========================================== */
+section {
+  background-color: #ffffff;
+  padding: 30px;
+  margin-bottom: 35px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+section h2 {
+  color: #2c3e50;
+  font-size: 1.8rem;
+  font-weight: 700;
+  border-bottom: 3px solid #3498db;
+  padding-bottom: 10px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+section h3 {
+  color: #2980b9;
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-top: 25px;
+  margin-bottom: 12px;
+}
+
+section p {
+  font-size: 1.05rem;
+  color: #34495e;
+  margin-bottom: 18px;
+}
+
+section ul, section ol {
+  font-size: 1.02rem;
+  padding-left: 22px;
+  margin-bottom: 20px;
+}
+
+section li {
+  margin-bottom: 10px;
+}
+
+section li strong {
+  color: #2c3e50;
+}
+
+section img {
+  display: block;
+  margin: 25px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.12);
+}
+
+/* ==========================================
+   5. ცხრილის სტილები (TABLE)
+   ========================================== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 25px;
+  font-size: 0.98rem;
+}
+
+table, th, td {
+  border: 1px solid #e2e8f0;
+}
+
+th, td {
+  padding: 14px 16px;
+  text-align: left;
+}
+
+th {
+  background-color: #3498db;
+  color: white;
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+tr:nth-child(even) {
+  background-color: #f8fafc;
+}
+
+/* ==========================================
+   6. ფუტერი (FOOTER)
+   ========================================== */
+footer {
+  text-align: center;
+  color: #7f8c8d;
+  font-size: 0.95rem;
+  margin-top: 40px;
+  padding-bottom: 30px;
+}
+
+footer hr {
+  border: 0;
+  height: 1px;
+  background: #e2e8f0;
+  margin-bottom: 20px;
+}
